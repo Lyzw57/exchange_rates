@@ -3,4 +3,4 @@
 class FileLoader:
     def __init__(self, file_path: str):
         self.file_path = file_path
-        self.directory = ""
+        self.directory = "" # TODO: set default directory
