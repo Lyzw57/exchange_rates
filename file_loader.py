@@ -1,0 +1,1 @@
+# Klasa do wczytywania pliku
