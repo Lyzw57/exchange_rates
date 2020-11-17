@@ -22,3 +22,6 @@ class CurrencyRateDownloader:
 
 if __name__ == "__main__":
     downloader = CurrencyRateDownloader()
+    currency = input()
+    date = input()
+    print(downloader.get_currency_rate(currency, date))
