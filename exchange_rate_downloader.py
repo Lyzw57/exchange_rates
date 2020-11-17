@@ -1,7 +1,7 @@
 from requests import get
 from json import loads
 
-# TODO: przebudować w klasę
+
 class CurrencyRateDownloader:
     def get_currency_rate(self, currency: str, date: str) -> float:
         """Gets currency exchange rate from Table 'A' National Polish Bank website.
